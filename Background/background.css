@@ -1,0 +1,43 @@
+*{
+	border="30px";
+	box-sizing:border-box;
+	
+}
+
+
+.box{
+	height:100vh;
+	background-size:cover;
+	background-attachment:fixed;
+	background-image: url(https://assets.weforum.org/article/image/0ZUBmNNVLRCfn3NdU55nQ00UF64m2ObtcDS0grx02fA.jpg);
+	
+}
+.box1{
+	height:100vh;
+	background-size:cover;
+	background-attachment:fixed;
+	background-image: url(https://www.nrdc.org/sites/default/files/styles/huge_16x9_100/public/2023-03/nrdc-nature-and-wildlife-1062342328.jpg.jpg?h=58c8a5e7&itok=r0rtlSiF);
+	
+}
+.box2{
+	height:100vh;
+	background-size:cover;
+	background-attachment:fixed;
+	background-image:url(https://wellness.mcmaster.ca/app/uploads/2021/10/Untitled-design-17.png);
+	
+}
+.box3{
+	height:100vh;
+	background-size:cover;
+	background-attachment:fixed;
+	background-image:url(https://img.veenaworld.com/wp-content/uploads/2023/05/10-Travel-Places-Where-Nature-Takes-Centerstage.jpg);
+	
+}
+.box4{
+	text-align:center;
+	height:100vh;
+	background-size:cover;
+	background-attachment:fixed;
+	background-image:linear-gradient(30deg,lightpink,white,lightblue);
+	
+}
