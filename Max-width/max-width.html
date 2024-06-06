@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Max-width</title>
+	
+	<style>
+	
+	*{
+		margin:0;
+		padding:0;
+		box-sizing:border-box;
+	
+	}
+		.nav1{
+			border:1px solid lightgray;	
+			max-width:1199px;
+			min-width:500px;
+			max-height:100px;
+			min-height:70px;
+			box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+			padding:10px;
+			margin:10px;
+		}
+		h3{
+			display:inline-block;
+			padding:20px;
+			margin:10px;
+			
+		}
+		
+		.nav1 > h3{
+			
+			border-radius:52% 48% 50% 50% / 1% 100% 0% 99%  ;
+			background-image: linear-gradiant(purple);
+			color:white;
+			background-color:purple;
+		}
+		
+		.nav1 > button{
+			padding:10px;
+			box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+			border:1px solid lightgray;
+			
+		}
+		
+		
+		.nav2{
+			max-width:1199px;
+			min-width:500px;
+			max-height:700px;
+			min-height:270px;
+			padding:10px;
+			border:1px solid lightgray;
+			margin:10px;
+			
+			
+		}
+		
+		img{
+			width:200px;
+			height:180px;
+			padding:10px;
+		    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+			margin:10px;
+			border-radius:20px;
+			display:inline-block;
+		}
+		.image{
+			display:inline-block;
+			width:200px;
+			height:280px;
+		}
+		.about{
+			padding:15px;
+			margin:10px;
+			display:inline-block;
+			width:600px;
+			height:180px;
+		}
+		
+	</style>
+</head>
+
+<body>
+	
+	<nav class="nav1">
+		<h3>RAJVI</h3>
+		<button >Home</button>
+		<button >about</button>
+		<button >Education</button>
+	</nav>
+	
+	<section class="nav2">
+	
+		<div class="image">
+			<img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZwFTtXxzgyX3o7MUN-xJZiP3HDgVt5TcMNPSVnleX68jujL-m3drx-hnyvwQ7ocXDNSg&usqp=CAU" alt="" width="200px";
+				height="280px";>
+		</div>
+	
+		<div class="about">
+			<h4>About</h4>
+			<br>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in when an unknown printer took a galley of type and scrambled it to make a type specimen book.when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+		</div>
+	
+	</section>
+</body>
+
+</html>
