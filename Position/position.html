@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>position</title>
+	
+	<style>
+	
+		
+	
+		*{
+				border-box: box-sizing;
+				
+		}
+		
+		.main{
+			width:100%;
+			height:900px;
+			background-image:linear-gradient(#F8F4E1,#AF8F6F);
+			
+			
+		}
+		
+		.box{
+			background-color:white;
+			width:100%;
+			height:50px;
+			color:black;
+			display:flex;
+			justify-content:space-evenly;
+			font-size:25px;
+			position:fixed;
+			box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+			background-color:#c39898;
+			
+			}
+
+			.box :hover{
+				font-size: 30px;
+				background-image: linear-gradient(#F5E8C7,#DEBA9D);
+				border-radius: 10px;
+				color: white;
+			}
+			
+			.box > a{
+				text-decoration:none;
+			}
+		
+		.login{
+			box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+			padding:20px;
+			width:400px;
+			height:250px;
+			position:relative;
+			top:50px;
+			left:35%;
+			z-index:20;
+			background-color: white;
+			
+			
+		}
+			
+		.button{
+			box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+			background:rgb(80, 142, 230);
+			border-radius: 9px;
+			font-size: 20px;
+		}
+
+		 .button :hover{
+			background:rgb(96, 225, 128);
+			font-size: 21px;
+		}
+		
+	</style>
+</head>
+
+<body>
+	<div class="main">
+	
+	<div class="box">
+		<a href="position.html">Home</a>
+		<a href="">About</a>
+		<a href="">Contect</a>
+		<a href="products.html">Products</a>
+		
+		
+	</div>
+	<br>
+	<br>
+	
+	<div class="login">
+		<h2>Log in</h2>
+		<br>
+		<lable>Name</lable>
+		<input type="text" placeholder="Name">
+		<br><br>
+		<lable>Number</lable>
+		<input type="number" placeholder="Number">
+		<br>
+		<br>
+		<lable>Email</lable>
+		<input type="email" placeholder="Email">
+		<br>
+		<br>
+		<button class="button">Submit</button>
+	
+	
+	</div>
+	<br><br>
+	<br><br>
+	
+	
+	 
+</div>
+</body>	
+
+</html> 
