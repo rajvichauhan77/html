@@ -16,12 +16,12 @@
 		.main{
 			width:100%;
 			height:900px;
-			background-image:linear-gradient(#F8F4E1,#AF8F6F);
+			/* background-image:linear-gradient(#F8F4E1,#AF8F6F); */
 			
 			
 		}
 		
-		.box{
+		/* .box{
 			background-color:white;
 			width:100%;
 			height:50px;
@@ -33,19 +33,50 @@
 			box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 			background-color:#c39898;
 			
+			} */
+
+			.box{
+				background-color: white;
+				width: 100%;
+				height: 50px;
+				display: flex;
+				justify-content: space-evenly;
+				background-color:#c39898;
+				position: fixed;
 			}
 
-			.box :hover{
+			.box > h2{
+				color: black;
+				line-height: 10px;
+				font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+				font-size: 30px;
+			}
+
+			 .ul  {
+				width: 70%;
+				line-height: 20px;
+				list-style-type: none;
+				display: flex;
+				justify-content: space-evenly;
+				align-items: center;
+				font-size: 30px;
+				color: black;
+
+			}
+
+			 .ul >li> a{
+				text-decoration:none;
+			}
+		 
+
+			.ul :hover{
 				font-size: 30px;
 				background-image: linear-gradient(#F5E8C7,#DEBA9D);
 				border-radius: 10px;
 				color: white;
 			}
 			
-			.box > a{
-				text-decoration:none;
-			}
-		
+			
 		.login{
 			box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 			padding:20px;
@@ -79,11 +110,13 @@
 	<div class="main">
 	
 	<div class="box">
-		<a href="position.html">Home</a>
-		<a href="">About</a>
-		<a href="">Contect</a>
-		<a href="products.html">Products</a>
-		
+		<h2>Rajvi</h2>
+		<ul class="ul">
+		<li><a href="position.html">Home</a></li>
+		<li><a href="">About</a></li>
+		<li><a href="">Contect</a></li>
+		<li><a href="products.html">Products</a></li>
+	</ul>
 		
 	</div>
 	<br>

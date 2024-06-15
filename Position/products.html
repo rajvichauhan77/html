@@ -3,123 +3,39 @@
 <head>
 	<title>products</title>
 	
-	<style>
-		
-		
-
-		.box{
-			background-color:white;
-			width:100%;
-			height:50px;
-			text-color:black;
-			display:flex;
-			justify-content:space-evenly;
-			font-size:25px;
-			text-decoration:none;
-			position:fixed;
-			box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-			background-color:#c39898;
-			}
-
-			.box :hover{
-				font-size: 30px;
-				background-image: linear-gradient(#F5E8C7,#DEBA9D);
-				border-radius: 10px;
-			}
-			
-			.box > a{
-				text-decoration:none;
-			}
-			
-			.info{
-				height:900px;
-				width:100%;
-				box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-				background-image:linear-gradient(#E8DFCA,#F5EFE6,#987070);
-			}
-			
-			.type{
-				padding:50px;
-				width:400px;
-				height:95px;
-				box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-				line-height:30px;
-				background-image:lightblue;
-				background-color:none;
-				padding: 20px;
-				margin: 10px;
-				text-align: left;
-			}
-			
-			
-			.type>ul>li>a{
-				text-decoration:none;
-				border: 1px solid none;
-				padding: 5px;
-				margin: 3px;
-				background-image:linear-gradient(rgb(173, 108, 173),white);
-				font-size: 20px;
-				border-radius: 10px;
-				list-style: none;
-			}
-
-			li::before{
-				content:"\261E";
-				
-			}
-
-
-
-			.type ul li a:hover{
-				border-radius: 10px;
-				font-size: 30px;
-				background-image:linear-gradient(#FFF2D7,#FFE0B5);
-			}
-
-
-
-
-			
-			
-			.products{
-				
-				width:500px;
-				height:500px;
-				box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-				overflow:auto;
-				scroll-behavior:smooth;
-				background-color:white;
-				
-				
-			}
-			
-	</style>
+	<link rel="stylesheet" href="products.css">			
+	
+	<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
 </head>
 <body>
 	
 	<div class="box">
-		<a href="position.html">Home</a>
-		<a href="">About</a>
-		<a href="">Contect</a>
-		<a href="">Products</a>
+		<h2>Rajvi</h2>
+		<ul class="ul">
+		<li><a href="position.html">Home</a></li>
+		<li><a href="">About</a></li>
+		<li><a href="">Contect</a></li>
+		<li><a href="products.html">Products</a></li>
+	</ul>
 	</div>
 	<br><br>
 	
 	
-<div class="info">
-	
+<div class="info"> 
+	<div class="menu">
+		
 	<div class="type">
-		<ul>
-			<li><a href="#p1">TV</a></li>
-			<li><a href="#p2">Phone</a></li>
-			<li><a href="#p3">Watches</a></li>
-		</ul>
+		
+			<button><a href="#p1">TV</a></button>
+			<br>
+			<button><a href="#p2">Phone</a></button>
+			<br>
+			<button><a href="#p3">Watches</a></button>
+		
 	</div>
 	<br>
-	
-	
-	
-	
 	<div class="products">
 		
 		<div id="p1">
@@ -146,10 +62,234 @@
 		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled </p>
 		</div>
 		
-	
 	</div>
-	
+
 </div>
+	<br>
+	<br>
+
+	<h3>All Products</h3>
+
+	<div class="options">
+
+		<div class="image">
+			<img src="https://eu.soundcore.com/cdn/shop/products/A3028051_ActiveNoiseCancellingHeadphones_TD01.jpg?v=1632386195" alt="" class="img1">
+
+			<h4>Wireless Headphones</h4>
+			<br>
+			<p class="p">price: 200$</p>
+			<br><br>
+			<button class="button">Add to cart</button>
+
+		</div>
+
+		<div class="image">
+			<img src="https://eu.soundcore.com/cdn/shop/products/A3028051_ActiveNoiseCancellingHeadphones_TD01.jpg?v=1632386195" alt=""class="img1">
+			<h4>Wireless Headphones</h4>
+			<br>
+			<p  class="p">price: 200$</p><br><br>
+			<button class="button">Add to cart</button>
+		</div>
+
+		<div class="image">
+			<img src="https://eu.soundcore.com/cdn/shop/products/A3028051_ActiveNoiseCancellingHeadphones_TD01.jpg?v=1632386195" alt="" class="img1">
+			<h4>Wireless Headphones</h4>
+			<br>
+			<p  class="p">price: 200$</p><br><br>
+			<button class="button">Add to cart</button>
+		</div>
+
+		<div class="image">
+			<img src="https://eu.soundcore.com/cdn/shop/products/A3028051_ActiveNoiseCancellingHeadphones_TD01.jpg?v=1632386195" alt="" class="img1">
+			<h4>Wireless Headphones</h4><br>
+			<p  class="p">price: 200$</p><br><br>
+			<button class="button">Add to cart</button>
+		</div>
+
+	</div>
+
+	<br>
+
+	<h2>About us</h2>
+
+	<div class="about-us">
+
+		<div class="about">
+
+			<div class="aboutimg">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdjLlJS2C2KD-fRoOykz8e5luqOtFFpGo_QQ&s" alt="" class="img2">	
+			</div>
+
+			<div class="aboutinfo">
+				<h3>Company details</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, molestiae harum delectus velit 
+					rem illum voluptates debitis impedit dignissimos ipsam provident minus vel quos .
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, molestiae harum delectus velit 
+					rem illum voluptates debitis impedit dignissimos ipsam provident minus vel quos .
+				</p>
+				<br><br>
+				<button class="b1">Know more</button>
+				
+			</div>
+
+		</div>
+
+	</div>
+
+	<h2>Top-users</h2>
+
+	<div class="top-user">
+
+		<div class="user">
+
+			<div class="userimg">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdjLlJS2C2KD-fRoOykz8e5luqOtFFpGo_QQ&s" alt="" class="img3">
+			</div>
+
+			<div class="userinfo">
+				<h5>Raj</h5>
+				<p class="p1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum vitae fugiat
+					adipisicing elit. Rerum vitae fugiat .</p>
+			</div>
+
+			<div class="userimg">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdjLlJS2C2KD-fRoOykz8e5luqOtFFpGo_QQ&s" alt="" class="img3">
+			</div>
+
+			<div class="userinfo">
+				<h5>Raj</h5>
+				<p class="p1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum vitae fugiat
+					adipisicing elit. Rerum vitae fugiat .</p>
+			</div>
+
+			<div class="userimg">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdjLlJS2C2KD-fRoOykz8e5luqOtFFpGo_QQ&s" alt="" class="img3">
+			</div>
+
+			<div class="userinfo">
+				<h5>Raj</h5>
+				<p class="p1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum vitae fugiat
+					adipisicing elit. Rerum vitae fugiat .</p>
+			</div>
+
+			<div class="userimg">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdjLlJS2C2KD-fRoOykz8e5luqOtFFpGo_QQ&s" alt="" class="img3">
+			</div>
+
+			<div class="userinfo">
+				<h5>Raj</h5>
+				<p class="p1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum vitae fugiat
+					adipisicing elit. Rerum vitae fugiat .</p>
+			</div>
+
+			<div class="userimg">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdjLlJS2C2KD-fRoOykz8e5luqOtFFpGo_QQ&s" alt="" class="img3">
+			</div>
+
+			<div class="userinfo">
+				<h5>Raj</h5>
+				<p class="p1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum vitae fugiat
+					adipisicing elit. Rerum vitae fugiat .</p>
+			</div>
+
+			<div class="userimg">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdjLlJS2C2KD-fRoOykz8e5luqOtFFpGo_QQ&s" alt="" class="img3">
+			</div>
+
+			<div class="userinfo">
+				<h5>Raj</h5>
+				<p class="p1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum vitae fugiat
+					adipisicing elit. Rerum vitae fugiat .</p>
+			</div>
+
+			<div class="userimg">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdjLlJS2C2KD-fRoOykz8e5luqOtFFpGo_QQ&s" alt="" class="img3">
+			</div>
+
+			<div class="userinfo">
+				<h5>Raj</h5>
+				<p class="p1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum vitae fugiat
+					adipisicing elit. Rerum vitae fugiat .</p>
+			</div>
+
+			<div class="userimg">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdjLlJS2C2KD-fRoOykz8e5luqOtFFpGo_QQ&s" alt="" class="img3">
+			</div>
+
+			<div class="userinfo">
+				<h5>Raj</h5>
+				<p class="p1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum vitae fugiat
+					adipisicing elit. Rerum vitae fugiat .</p>
+			</div>
+
+		</div>
+
+	</div>
+	<br><br>
+
+	<div class="footer">
+
+		<div class="footer1">
+			
+		<div class="f1">
+			<h3 class="h3">Courses</h3>
+			<br><br>
+			<p class="p2">The automated process starts as soon as your clothes go into the machine.</p>
+			<br><br><br>
+			<i class="ri-twitter-fill"></i><i class="ri-facebook-fill"></i><i class="ri-pinterest-fill"></i>
+
+		</div>
+
+		<div class="f2">
+			<h4  class="h4">Our solutions</h4>
+			<br>
+			<ul>
+				<li>Design & creatives</li>
+				<li>Telecommunication</li>
+				<li>Restaurant</li>
+				<li>Programing</li>
+				<li>Architecture</li>
+				
+			</ul>
+		</div>
+
+		<div class="f2">
+			<h4 class="h4">Support</h4>
+			<br>
+			<ul>
+				<li>Design & creatives</li>
+				<li>Telecommunication</li>
+				<li>Restaurant</li>
+				<li>Programing</li>
+				<li>Architecture</li>
+			</ul>
+		</div>
+
+		<div class="f2">
+			<h4  class="h4">Company</h4>
+			<br>
+			<ul>
+				<li>Design & creatives</li>
+				<li>Telecommunication</li>
+				<li>Restaurant</li>
+				<li>Programing</li>
+				<li>Architecture</li>
+			</ul>
+		</div>
+
+		
+		</div>
+		<br><br>
+		<p class="p3">Copyright ©2024 All rights reserved | This template is made with  by Colorlib</p>
+
+	</div>
+
+
+</div>
+
+
+
+
 </body>
 
 </html>
