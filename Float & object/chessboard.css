@@ -1,0 +1,39 @@
+
+*{
+    box-sizing:border-box;
+    
+    
+}
+body{
+    margin-left:30%;
+    margin-bottom:4%;
+    border:30px solid #6F4E37;
+    width:fit-content;
+    
+}
+
+.box{
+    width:100px;
+    height:100px;
+    background-color:#A67B5B;
+    float:left;
+    text-align:center;
+    line-height:100px;
+    color:black;
+    font-size:50px;
+}
+
+.box1{
+    width:100px;
+    height:100px;
+    background-color:#FED8B1;
+    float:left;
+    text-align:center;
+    line-height:100px;
+    color:black;
+    font-size:50px;
+}
+
+.clear-fix{
+    clear:both;
+}
