@@ -1,0 +1,41 @@
+.container{
+    width: 1200px;
+    overflow-x: scroll;
+    border: 1px solid black;
+   background-color: antiquewhite;
+}
+
+
+
+.box{
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    animation-name: boxes;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+     
+}
+
+@keyframes boxes{
+    from{margin-left: -1200px; }
+    to{margin-left: 1200px;}
+}
+
+.boxes{
+    width: 100px;
+    height: 100px;
+}
+
+.boxes:nth-child(2n){
+   
+    background-color: black;
+}
+
+.boxes:nth-child(2n-1){
+   
+    background-color: palevioletred;
+}
+
