@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.main{
+    width: 100%;
+   
+
+}
+
+.box{
+    width: 90%;
+   border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    background-image: linear-gradient(#A0937D,#E7D4B5,#F6E6CB,#B6C7AA);
+}
+.box h2{
+    text-align: center;
+    padding: 10px;
+}
+.boxes{
+    width: 70%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #E7D4B5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.boxes img{
+    width: 300px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 10px;
+}
+
+.boxes p{
+    line-height: 20px;
+    font-size: 15px;
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    justify-content: center;
+   flex-direction: column;
+
+}

@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    
+}
+
+.blog{
+    width: 90%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   border-radius: 10px;
+   background-image: linear-gradient(#AD88C6, #DA7297);
+}
+
+.img{
+    width: 70%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid pink;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:   #FFE6E6;
+}
+
+.img img{
+    width: 300px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 10px;
+}
+
+.img p{
+    line-height: 20px;
+    font-size: 15px;
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    justify-content: center;
+   flex-direction: column;
+}
+
+.img p span{
+    font-size: 30px;
+    line-height: 20px;
+    font-weight: 500;
+    font-style: bold;
+    font-family: "Ubuntu", sans-serif;
+    padding-bottom: 20px;
+}
