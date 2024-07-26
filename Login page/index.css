@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    max-width: 100%;
+    margin: auto;
+    background-image: url("images/b2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(90px);
+    
+   
+}
+
+.box{
+    
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.box1{
+    padding: 10px;
+    width: 30%;
+    background-image: url("images/b3.jpg");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.b1{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.b1 h1{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.b1 p{
+    padding-top: 10px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.b1 a button{
+    width: 220px;
+    border: none;
+    padding:15px 20px;
+    border-radius: 50px;
+    background-color: rgba(39, 60, 39, 0.635);
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    
+    
+}
+
+.b1 a button:hover{
+    background-color: gainsboro;
+    color: black;
+    border: 1px solid black;
+}
+
+.login{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.login h1{
+    padding-top: 20px;
+    font-size: 35px;
+}
+
+.login h2{
+    padding-bottom: 40px;
+    font-size: 25px;
+}
+
+.name{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.login i{
+    font-size: 80px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.name input{
+    width: 85%;
+    padding: 15px;
+    background-color: transparent;
+    margin: 10px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 3px solid  rgba(39, 60, 39, 0.635);
+}
+.name a p{
+    display: flex;
+    padding-left: 10px;
+}
+.name a{
+    text-decoration: none;
+    color: rgba(39, 60, 39, 0.635) ;
+}
+
+
+.sign-in{
+    
+    text-align: center;
+}
+
+.sign-in a button{
+    width: 220px;
+    border: none;
+    padding:15px 20px;
+    border-radius: 50px;
+    background-color: rgba(39, 60, 39, 0.635);
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    
+    
+}
+.sign-in a button:hover{
+    background-color: gainsboro;
+    color: black;
+    border: 1px solid black;
+}
